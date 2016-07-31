@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8" />
+  	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  	<link rel="icon" type="image/png" href="assets/images/favicon.ico">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+  	<title>WeeSurf | The surf world on your mobile. Interactive map for surfers</title>
+
+    <meta name="description" content="The social and interactive map for surfers on your mobile. WEESURF locates for you surf spots, shops, schools, shapers, surfboards rental and repair.">
+    <meta name="author" content="">
+
+  	<!--  Fonts and icons  -->
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+  	<!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+    <link href="assets/css/slick.css" rel="stylesheet"/>
+    <link href="assets/css/slick-theme.css" rel="stylesheet"/>
+    <link href="assets/css/weesurf.css" rel="stylesheet"/>
+
+  	<!-- CSS Just for demo purpose, don't include it in your project -->
+  	<link href="assets/css/demo.css" rel="stylesheet" />
+  </head>
+
+  <body class="index-page">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+    	<div class="container">
+        <div class="navbar-header">
+        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
+            	<span class="sr-only">Toggle navigation</span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+        	</button>
+      	  <a href="http://www.weesurf.com" alt="Weesurf go to homepage">
+      	    <div class="logo-container">
+              <div class="logo">
+                <img src="assets/images/logos/logo-weesurf.svg" alt="WeeSurf Logo" data-html="true">
+              </div>
+      	    </div>
+      	  </a>
+      	</div>
+
+        <div class="collapse navbar-collapse" id="navigation-index">
+        	<ul class="nav navbar-nav navbar-right">
+      			<li>
+      				<a class="page-scroll" href="#explore">
+      					Explore
+      				</a>
+      			</li>
+            <li>
+              <a class="page-scroll" href="#pro">
+                Pro
+              </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#team">
+                Team
+              </a>
+            </li>
+      			<li>
+      				<a class="page-scroll" href="http://www.weesurf.com/blog/">
+      					Blog
+      				</a>
+      			</li>
+            <li>
+              <a class="page-scroll" href="#contact">
+                Contact
+              </a>
+            </li>
+      			<li>
+      				<a rel="tooltip" title="Download WeeSurf App on the App Store" data-placement="bottom" href="https://itunes.apple.com/fr/app/weesurf/id1004656394?mt=8" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+      					<i class="fa fa-apple"></i>
+      				</a>
+      			</li>
+      			<li>
+      				<a rel="tooltip" title="Download WeeSurf App on the Google Play Store" data-placement="bottom" href="https://play.google.com/store/apps/details?id=com.weesurf.app.weesurf" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+      					<i class="fa fa-android"></i>
+      				</a>
+      			</li>
+        	</ul>
+        </div>
+    	</div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- HEADER - PARALAX/DOWNLOAD -->
+    <div class="wrapper">
+    	<div class="header header-filter" style="background-image: url('assets/images/weesurf-cover.jpg');">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-8 col-md-offset-2">
+    					<div class="brand">
+    						<h1>Search less. <i style="color: #0f1a7f">Surf more.</i></h1>
+    						<h3>Imagine a world where you could have the surf universe in your pocket</h3>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="row download-container">
+                      <div class="col-md-6 text-center">
+                        <a href="https://itunes.apple.com/fr/app/weesurf/id1004656394?mt=8" alt="Download WeeSurf App on the App Store">
+                          <img src="assets/images/apple-store-white.png" alt="Download WeeSurf on the App Store">
+                        </a>
+                      </div>
+                      <div class="col-md-6 text-center">
+                        <a href="https://play.google.com/store/apps/details?id=com.weesurf.app.weesurf" alt="Download WeeSurf App on the Google Play Store">
+                          <img src="assets/images/google-play-white.png" alt="Download WeeSurf on the Google Play Store">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+      </div>
+  	</div>
+
+    <!-- SECTION - WEESURF FEATURES -->
+    <div id="explore" class="main">
+      <div class="section section-features">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                  <h2>Let's talk product</h2>
+                  <p>This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-4">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div id="#item-1" class="info text-center">
+                        <div class="icon icon-primary">
+                          <i class="material-icons">explore</i>
+                        </div>
+                        <h4 class="info-title">Discover</h4>
+                        <p>the best places to surf, shop and visit</p>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div id="#item-2" class="info text-center">
+                        <div class="icon icon-primary">
+                          <i class="material-icons">fingerprint</i>
+                        </div>
+                        <h4 class="info-title">Access</h4>
+                        <p>every place’s details in one touch</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 text-center mockup">
+                  <img src="assets/images/iphone-mockup.png" alt="Weesurf App map feature" style="width: 240px">
+                  <ul id="mockups-container" class="mockups-container">
+                    <li id="slide-1" class="active">
+                      <img src="assets/images/mockup-discover.jpg" alt="Weesurf App discover feature">
+                    </li>
+                    <li id="slide-2">
+                      <img src="assets/images/mockup-access.jpg" alt="Weesurf App access feature">
+                    </li>
+                    <li id="slide-3">
+                      <img src="assets/images/mockup-favs.jpg" alt="Weesurf App favs feature">
+                    </li>
+                    <li id="slide-4">
+                      <img src="assets/images/mockup-profile.jpg" alt="Weesurf App profile feature">
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div id="#item-3" class="info text-center">
+                          <div class="icon icon-primary">
+                            <i class="material-icons">turned_in_not</i>
+                          </div>
+                          <h4 class="info-title">Easily</h4>
+                          <p>keep track of the places you like</p>
+                        </div>
+                     </div>
+                      <div class="col-md-12">
+                        <div id="#item-4" class="info text-center">
+                          <div class="icon icon-primary">
+                            <i class="material-icons">account_circle</i>
+                          </div>
+                          <h4 class="info-title">Explore</h4>
+                          <p>your friend’s surf profile</p>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION - WEESURF VIDEO -->
+    <div class="main">
+      <div class="section section-video">
+        <div id="weesurf-video"></div>
+      </div>
+    </div>
+
+    <!-- SECTION - WEESURF FOR PROS -->
+    <div id="pro" class="main">
+      <div class="section section-pro">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="assets/images/weesurf-pro-mockup.png" alt="Weesurf pro mockup app" style="width:250px;">
+                </div>
+                <div class="col-md-8">
+                  <h2>WEESURF for PROS</h2>
+                  <h5>We are developing a special service fully dedicated to professionals. If you are a surf shop, surf school, shaper, restaurant or accommodation, WEESURF PRO allows you to stay connected with the local community.</h5>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="pro-info">
+                        <div class="icon icon-primary">
+                          <i class="material-icons">add_alert</i>
+                        </div>
+                        <div class="pro-details">
+                          <h4 class="info-title">Create your own Notifications campaign</h4>
+                          <p>about your last news (schedules, new products or services, surf reports, etc)</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="pro-info">
+                        <div class="icon icon-primary">
+                          <i class="material-icons">monetization_on</i>
+                        </div>
+                        <div class="pro-details">
+                          <h4 class="info-title">Create your own Promotions campaign</h4>
+                          <p>on products, surf lessons, shape classes, etc</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="pro-info">
+                        <div class="icon icon-primary">
+                          <i class="material-icons">stars</i>
+                        </div>
+                        <div class="pro-details">
+                          <h4 class="info-title">Create your own Events</h4>
+                          <p>like drinks, party, contest, afterwork, exhibition, etc</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row cta-container">
+                    <div class="col-md-4">
+                      <a href="https://itunes.apple.com/fr/app/weesurf/id1004656394?mt=8" class="btn btn-round btn-lg btn-weesurf">Try it for free</a>
+                    </div>
+                    <div class="col-md-4">
+                      <a href="#contact" class="btn btn-round btn-lg btn-neutral">Contact us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION - INSTAGRAM GRID -->
+    <div class="main main-raised">
+      <div class="section section-instagram">
+        <div class="profile text-center">
+          <div class="avatar">
+            <img src="assets/images/logos/blanc.png">
+          </div>
+          <a href="https://www.instagram.com/weesurfapp/" class="btn btn-simple">@Weesurfapp</a>
+        </div>
+        <div class="container-fluid">
+          <div id="instafeed">
+            <!-- Instagram gallery -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION - TESTIMONIALS -->
+    <div class="main main-raised">
+      <div class="section section-testimonials text-center">
+        <h2>REVIEWS</h2>
+        <p class="sub-title">We love our users! We rely on you to share with us your comments, your ideas, your expectations and your needs.</p>
+        <div class="container-fluid">
+          <div class="testimonials">
+            <div class="testimonial">
+              <div class="testimonial-container">
+                <p class="text-muted">Super surf app, finally! I can check directly surf sports, surf shops and surf school without checking 36 times on Google. Thank you Weesurf!</p>
+                <span>Vbcourmayer</span>
+              </div>
+            </div>
+            <div class="testimonial">
+              <div class="testimonial-container">
+                <p class="text-muted">Super helpful, I can find the nearest shop, spot or shaper around me without visiting 15 different websites! I can’t wait for the international version!</p>
+                <span>PierreAshiien</span>
+              </div>
+            </div>
+            <div class="testimonial">
+              <div class="testimonial-container">
+                <p class="text-muted">I have discovered shops that I didn’t know in my own town, super app full of detailed information and easy to use!</p>
+                <span>Alimoi</span>
+              </div>
+            </div>
+            <div class="testimonial">
+              <div class="testimonial-container">
+                <p class="text-muted">Super surf app, finally! I can check directly surf sports, surf shops and surf school without checking 36 times on Google. Thank you Weesurf!</p>
+                <span>Vbcourmayer</span>
+              </div>
+            </div>
+            <div class="testimonial">
+              <div class="testimonial-container">
+                <p class="text-muted">Super helpful, I can find the nearest shop, spot or shaper around me without visiting 15 different websites! I can’t wait for the international version!</p>
+                <span>PierreAshiien</span>
+              </div>
+            </div>
+            <div class="testimonial">
+              <div class="testimonial-container">
+                <p class="text-muted">I have discovered shops that I didn’t know in my own town, super app full of detailed information and easy to use!</p>
+                <span>Alimoi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION - TEAM -->
+    <div id="team" class="main">
+      <div class="section section-team text-center">
+        <div class="container">
+          <h2>Here is our team</h2>
+          <p>Developed by surfers, for surfers<br>One team, One project, One passion.</p>
+          <div class="row team-members">
+            <div class="col-md-4">
+              <div class="team-player">
+                <img src="assets/images/team/ronan.jpg" alt="Ronan's profile pic" class="img-raised img-circle">
+                <h4 class="title">Ronan Baudet<br><small class="text-muted">CTO</small></h4>
+                <p class="description">Lorem ipsum</p>
+                <a href="https://www.facebook.com/ronan.baudet" class="btn btn-simple btn-just-icon">
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://fr.linkedin.com/in/baudetronan" class="btn btn-simple btn-just-icon">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-player">
+                <img src="assets/images/team/maxime.jpg" alt="Ronan's profile pic" class="img-raised img-circle">
+                <h4 class="title">Maxime Lainé<br><small class="text-muted">CEO</small></h4>
+                <p class="description">Lorem ipsum</p>
+                <a href="https://twitter.com/maximela1ne" class="btn btn-simple btn-just-icon">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=1008919485" class="btn btn-simple btn-just-icon">
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/maxime-lain%C3%A9-09819135" class="btn btn-simple btn-just-icon">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-player">
+                <img src="assets/images/team/arthur.jpg" alt="Ronan's profile pic" class="img-raised img-circle">
+                <h4 class="title">Arthur Berteloot<br><small class="text-muted">Product Manager</small></h4>
+                <p class="description">Lorem ipsum</p>
+                <a href="https://twitter.com/arthurberteloot" class="btn btn-simple btn-just-icon">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/arthur.berteloot" class="btn btn-simple btn-just-icon">
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://fr.linkedin.com/in/artpro" class="btn btn-simple btn-just-icon">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION - TEAM -->
+    <div id="contact" class="main main-raised">
+      <div class="section section-contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h2 class="text-center">Contact us</h2>
+              <h4 class="text-center description">Please tell us what you think, what you enjoy and what you would love to see in the next versions! We will be more than happy to have your feedbacks</h4>
+              <form class="contact-form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group label-floating">
+                      <label class="control-label">Your Name</label>
+                      <input id="name" required type="text" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group label-floating">
+                      <label class="control-label">Your Email</label>
+                      <input id="mail" type="email" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label">Your Message</label>
+                  <textarea id="message" class="form-control" rows="8"></textarea>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 col-md-offset-4 text-center">
+                    <div id="success"></div>
+                    <button class="btn btn-round btn-lg btn-weesurf">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION - PARTNERS -->
+    <div class="main">
+      <div class="section section-partners">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <a href="" alt="">
+                <img src="assets/images/partners/logo-sfr-innovation.jpg" alt="Logo SFR Innovation">
+              </a>
+              <div class="row">
+                <div class="col-md-4">
+                  <a href="" alt="">
+                    <img src="assets/images/partners/logo-ouest-france.jpg" alt="Logo Ouest France">
+                  </a>
+                </div>
+                <div class="col-md-4">
+                  <a href="" alt="">
+                    <img src="assets/images/partners/logo-web2day.jpg" alt="Logo Web2Day">
+                  </a>
+                </div>
+                <div class="col-md-4">
+                  <a href="" alt="">
+                    <img src="assets/images/partners/logo-eurosima.jpg" alt="Logo Eurosima">
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                 <div class="col-md-6">
+                  <a href="" alt="">
+                    <img src="assets/images/partners/logo-widoobiz.jpg" alt="Logo Widoobiz">
+                  </a>
+                </div>
+                 <div class="col-md-6">
+                  <a href="" alt="">
+                    <img src="assets/images/partners/logo-maddyness.jpg" alt="Logo Madyness">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="main">
+      <div class="section section-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <img src="assets/images/logos/blanc.png" alt="Weesurf logo" style="width: 100px;">
+            </div>
+          </div>
+          <div class="row social-container">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <a href="https://www.facebook.com/WeeSurf/" class="btn btn-just-icon">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/weesurfapp/" class="btn btn-just-icon">
+                <i class="fa fa-instagram"></i>
+              </a>
+              <a href="https://www.youtube.com/channel/UCNUsMGoJOdwQ2mhV2iuVTIg" class="btn btn-just-icon">
+                <i class="fa fa-youtube"></i>
+              </a>
+              <a href="https://twitter.com/arthurberteloot" class="btn btn-just-icon">
+                <i class="fa fa-google-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="copyright">
+            © 2016, made with <i class="fa fa-heart heart"></i>  by Weesurf
+          </div>
+          <div class="legals">
+            <p data-toggle="modal" data-target="#legals">
+              Privacy Policy & Terms of Use
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="legals" tabindex="1" role="dialog" aria-labbeledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <i class="material-icons">clear</i>
+            </button>
+            <h4 class="modal-title">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            <p><b>Legal</b></p>
+            <p>Raison sociale : WeeSurf</p>
+            <p>Forme juridique : SAS</p>
+            <p>SIREN : 814 855 169</p>
+            <p>RCS : Nantes</p>
+            <p>Capital Social : 10 000 €</p>
+            <p>Siège social : 9 rue Marcel Sembat, Immeuble le Saint-Louis, 44100 Nantes</p>
+            <p>Conformément à la loi n°2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, nous vous informons que l’application mobile WeeSurf, ainsi que le site internet www.weesurf.com sont la propriété de WeeSurf SAS.</p>
+            <p>Directeur de la publication : Maxime LAINÉ</p>
+            <p>Contact : contact@weesurf.com L’application mobile WeeSurf est régie par le droit français; les utilisateurs ayant accès à l’application de l'étranger, doivent s'assurer du respect des lois localement applicables. Les mentions légales pouvant être modifiées à tout moment et sans préavis, nous vous engageons à les consulter régulièrement. Cette application est déclarée à la CNIL sous le numéro 1910427.</p>
+            <p><b>Service technique d'hébergement</b></p>
+            <p>L’application mobile WeeSurf est hébergée sur les matériels informatiques de la société Gandi SAS, Société par Actions Simplifiée au capital de 300 000€ ayant son siège social au 63-65 boulevard Massena à Paris (75013), France.</p>
+            <p><b>Propriété intellectuelle</b></p>
+            <p>WeeSurf SAS détient, se réserve et conserve tous les droits de propriété, notamment intellectuelle, y compris les droits de reproduction sur la présente application et les éléments qu'elle contient. En conséquence et notamment toute reproduction partielle ou totale de la présente application et des éléments qu'elle contient est strictement interdite sans autorisation écrite de WeeSurf SAS. Les logos et tous autres signes distinctifs contenus sur cette application sont la propriété de WeeSurf SAS ou font l'objet d'une autorisation d'utilisation. Aucun droit ou licence ne saurait être attribué sur l'un quelconque de ces éléments sans l'autorisation écrite de WeeSurf SAS ou du tiers détenteur des droits.</p>
+            <p><b>Exclusion de garantie et de responsabilité</b></p>
+            <p>L'utilisateur de l’application WeeSurf reconnaît avoir pris connaissance des conditions d'utilisation de l’application et s'engage à les respecter. WeeSurf SAS ne saurait être tenue pour responsable des dommages directs ou indirects qui pourraient résulter de l'accès à l’application ou de l'utilisation de l’application et/ou de ces informations, y compris l'inaccessibilité, les pertes de données, détériorations, destructions ou virus qui pourraient affecter l'équipement informatique de l'utilisateur et/ou de la présence de virus dans son application. Bien que WeeSurf SAS s'efforce de fournir un contenu fiable sur son application, il ne garantit pas que son contenu soit exempt d'inexactitudes ou d'omissions et ne saurait être tenu pour responsable des erreurs ou omissions, d'une absence de disponibilité des informations et des services. WeeSurf SAS se réserve à tout moment et sans préavis le droit d'apporter des améliorations et/ou des modifications au contenu de son application. En conséquence, l'utilisateur reconnaît se servir de ses informations sous sa responsabilité exclusive.</p>
+            <p><b>Liens vers d'autres sites</b></p>
+            <p>L’application peut inclure des liens vers d'autres sites ou d'autres sources Internet. Dans la mesure où WeeSurf SAS ne peut contrôler ces sites et ces sources externes, WeeSurf SAS ne peut être tenue pour responsable de la mise à disposition de ces sites et sources externes, et décline ainsi toute responsabilité quant aux contenus, publicités, produits, services ou tout autre matériel disponible sur ou à partir de ces sites ou sources externes. Ces liens sont proposés aux utilisateurs de l’application en tant que service. La décision d'activer les liens vous appartient exclusivement. Nous vous rappelons que les sites non-affiliés sont soumis à leurs propres conditions d'utilisation.</p>
+            <p><b>Terms</b></p>
+            <p>L’accès à l’application WEESURF (ci-après, l’« Application »), la navigation sur celle-ci, et l’utilisation des services fournis par WeeSurf SAS sont régies par les conditions générales d’utilisation (« CGU ») détaillées ci-dessous. L'Application est la propriété exclusive de WeeSurf SAS au capital de 10 000 €, immatriculée au Registre du Commerce et des Sociétés de Nantes sous le numéro SIREN 814 855 169, et dont le siège social est situé au 9, rue Marcel Sembat, Immeuble le Saint-Louis, 44100 Nantes. L'application a fait l’objet d’un enregistrement auprès de la CNIL le 9 janvier 2014, sous le numéro 1910427.</p>
+            <p><b>Préambule</b></p>
+            <p>Tout utilisateur de l'Application reconnaît avoir pris connaissance des présentes CGU et les accepter. L’utilisation de l'Application vaut acceptation sans réserve des CGU. En cas de désaccord avec tout ou partie des CGU, vous devez immédiatement vous abstenir d’utiliser l'Application. WeeSurf SAS se réserve le droit de modifier à tout moment et sans préavis les termes des CGU. Les modifications entrent en vigueur immédiatement après la publication des conditions modifiées sur l'Application. Si une condition venait à faire défaut dans les présentes CGU, elle sera considérée comme étant régie par les usages en vigueur dans le secteur de la vente à distance et ce conformément à la loi française.</p>
+            <p><b>Définitions</b></p>
+            <p>Application : désigne l'application mobile éditée et exploitée par WeeSurf SAS.</p>
+            <p>CGU : désigne les présentes conditions générales d’utilisation de l'Application.</p>
+            <p>Contenu Utilisateur : désigne les données transmises par l'Utilisateur dans les différentes rubriques de l'Application.</p>
+            <p>Données de navigation : désigne les informations liées à la connexion de votre terminal à l’Application. Nous sommes susceptibles d’utiliser ces données de navigation à des fins statistiques.</p>
+            <p>Données personnelles : désigne les informations liées aux Utilisateurs. Il peut s’agir de l’historique d’utilisation des Services par l’Utilisateur.</p>
+            <p>Partenaires : désigne l’ensemble des sites e-commerce ou sociétés informatiques avec lesquels nous avons un contrat de partenariat direct ou indirect.</p>
+            <p>Services : désigne l’ensemble des services, payants ou gratuits, accessibles aux Utilisateurs.</p>
+            <p>Utilisateur(s) : désigne une (ou l’ensemble des) personne(s) inscrite sur l'Application.</p>
+            <p>WeeSurf : désigne la SAS au capital de 10 000 euros qui édite l'Application.</p>
+            <p><b>Accès aux services</b></p>
+            <p>Les services proposés par WeeSurf via l'Application comprennent, entre autres :</p>
+            <p>• l’ajout et la sauvegarde d’adresses géolocalisées,</p>
+            <p>• l’identification d’une adresse par son nom, son adresse, ses coordonnées, et des tags définis par l’Utilisateur,</p>
+            <p>• l’affichage de la localisation de l’Utilisateur et de ses adresses enregistrées.</p>
+            <p>Les Services sont accessibles gratuitement à tout Utilisateur disposant d'un accès à internet. Tous les coûts afférents à l'accès aux Services, que ce soient les frais matériels, logiciels ou d'accès à internet sont exclusivement à la charge de l'utilisateur. Il est seul responsable du bon fonctionnement de son équipement informatique ainsi que de son accès à internet. WeeSurf se réserve le droit de refuser l'accès aux Services, unilatéralement et sans notification préalable, à tout Utilisateur ne respectant pas les présentes conditions d'utilisation. WeeSurf n’aura aucune obligation de conserver les informations stockées dans notre base de données et relative à votre compte ou de transmettre ces informations à vous ou un tiers. WeeSurf met en œuvre tous les moyens raisonnables à sa disposition pour assurer un accès de qualité aux Services, mais n'est tenu à aucune obligation d'y parvenir. WeeSurf ne peut, en outre, être tenue responsable de tout dysfonctionnement du réseau ou des serveurs ou de tout autre événement échappant au contrôle raisonnable, qui empêcherait ou dégraderait l'accès aux Services. WeeSurf se réserve la possibilité d'interrompre, de suspendre momentanément ou de modifier sans préavis l'accès à tout ou partie des Services, afin d'en assurer la maintenance, ou pour toute autre raison, sans que l'interruption n'ouvre droit à aucune obligation ni indemnisation.</p>
+            <p><b>Limitation de responsabilité</b></p>
+            <p>L’Utilisateur reconnaît avoir pris connaissance et accepté ces conditions, ainsi que de disposer des compétences pour naviguer sur l'application mobile. L'Utilisateur est seul responsable du Contenu Utilisateur qu'il met en ligne via les Services, ainsi que des textes et/ou opinions qu'il formule. Il s'engage notamment à ce que ces données ne soient pas de nature à porter atteinte aux intérêts légitimes de tiers quels qu'ils soient. A ce titre, il garantit WeeSurf SAS contre tous recours, fondés directement ou indirectement sur ces propos et/ou données, susceptibles d'être intentés par quiconque à l'encontre de WeeSurf SAS. Il s'engage en particulier à prendre en charge le paiement des sommes, quelles qu'elles soient, résultant du recours d'un tiers à l'encontre de WeeSurf SAS, y compris les honoraires d'avocat et frais de justice. WeeSurf se réserve le droit de supprimer tout ou partie du Contenu Utilisateur, à tout moment et pour quelque raison que ce soit, sans avertissement ou justification préalable. L'Utilisateur ne pourra faire valoir aucune réclamation à ce titre. WeeSurf se réserve le droit d’exclure un Utilisateur si son comportement sur l'Application n’est pas approprié. WeeSurf se réserve aussi le droit d’accéder, de lire, de conserver ou divulguer toute information considéré comme nécessaire afin de satisfaire à toute loi, réglementation, processus légal ou demande gouvernementale dans le but de faire respecter les présentes conditions, y compris une enquête sur les potentielles violations de ces conditions, afin de détecter, prévenir ou déclarer une fraude, un problème de sécurité ou technique, répondre aux demandes de support des utilisateurs, ou protéger les droits, la propriété ou la sécurité de WeeSurf, ses utilisateurs et le public. L'Application fournit certaines informations sur les adresses, provenant de sources réputées fiables. Toutefois, WeeSurf ne peut garantir l'exactitude ou la pertinence de ces données. En outre, les informations mises à disposition sur l'Application le sont uniquement à titre purement informatif et ne sauraient constituer en aucun cas un conseil ou une recommandation de quelque nature que ce soit. WeeSurf ne peut être tenu responsable des litiges entre les utilisateurs des Services et les Partenaires. Les informations et/ou documents disponibles sur l'application sont susceptibles d’être modifiés à tout moment, et peuvent avoir fait l’objet de mises à jour. En particulier, ils peuvent avoir fait l’objet d’une mise à jour entre le moment de leur téléchargement et celui où l’Utilisateur en prend connaissance. En conséquence, l'utilisation des informations et contenus disponibles sur l'ensemble de l'Application, ne sauraient en aucun cas engager la responsabilité de WeeSurf SAS, à quelque titre que ce soit. L'Utilisateur est seul maître de la bonne utilisation, avec discernement et esprit, des informations mises à sa disposition sur l'Application. Par ailleurs, l'Utilisateur s'engage à indemniser WeeSurf SAS de toutes conséquences dommageables liées directement ou indirectement à l'usage qu'il fait du Service. WeeSurf s'engage à mettre en place tous les moyens nécessaires pour garantir la sécurité et la confidentialité des données transmises. L'Utilisateur admet connaître les limitations et contraintes propres au réseau internet et, à ce titre, reconnaît notamment l'impossibilité d'une garantie totale de la sécurisation des échanges de données. WeeSurf SAS ne pourra pas être tenue responsable des préjudices découlant de la transmission de toute information, y compris de celle de son identifiant et/ou de son mot de passe, via le Service. WeeSurf SAS ne pourra en aucun cas, dans la limite du droit applicable, être tenue responsable des dommages et/ou préjudices, directs ou indirects, matériels ou immatériels, ou de quelque nature que ce soit, résultant d'une indisponibilité du Service ou de toute Utilisation du Service. Le terme « Utilisation » doit être entendu au sens large, c'est-à-dire tout usage du site quel qu'il soit, licite ou non. L'Utilisateur s'engage, d'une manière générale, à respecter l'ensemble de la réglementation en vigueur en France.</p>
+            <p><b>Données personnelles et confidentialité</b></p>
+            <p>Les données personnelles collectées sur WeeSurf le sont en accord avec l’Utilisateur et ont pour but d’améliorer son expérience sur l'Application ou via les Services. WeeSurf se réserve le droit de collecter différentes données nominatives et non nominatives, notamment par le biais de collecte de cookies, dans une démarche d’amélioration de l’expérience client et de l’ergonomie sur l'Application et les Services, d’analyses statistiques et de personnalisation des Services. WeeSurf pourra être amené à communiquer les informations utilisateur de façon anonyme dans une démarche de location / vente / mise à disposition de base de données après accord préalable avec l’utilisateur. L'Application peut également inclure des publicités et des offres ciblées. Les types et l'étendue de la publicité sont sujets à changement. En contrepartie du fait que WeeSurf vous donne accès à l'utilisation de ses Services, vous acceptez que WeeSurf, ou ses tiers fournisseurs et partenaires, puissent placer de la publicité sur l'Application. L’Application a fait l’objet d’un enregistrement auprès de la CNIL le 9 Décembre 2015, sous le numéro 1910427. Conformément à la loi n°78-17 Informatique et libertés du 06/01/1978, chaque utilisateur a un droit d’accès, de rectification et de suppression à ses informations personnelles et peut s’opposer à leur traitement et exploitation commerciale. Il suffit de contacter WeeSurf par email via l’adresse contact@weesurf.com ou par courrier à l’adresse suivante : 9 rue Marcel Sembat, Immeuble Saint-Louis, 44100 Nantes.</p>
+            <p><b>Droit d'auteur et propriété intellectuelle</b></p>
+            <p>L'application et l’ensemble de son contenu relèvent de la législation française et internationale en matière de droit d’auteur et de propriété intellectuelle. La structure générale de l'Application, ainsi que les textes, graphiques, images, sons et vidéos la composant, sont la propriété de WeeSurf SAS ou de ses partenaires. Toute représentation et/ou reproduction et/ou exploitation partielle ou totale des contenus et services proposés par l'Application, par quelque procédé que ce soit, sans l'autorisation préalable et par écrit de WeeSurf SAS est strictement interdite et serait susceptible de constituer une contrefaçon au sens des articles L 335-2 et suivants du Code de la propriété intellectuelle. Les textes, graphiques, images, sons et vidéos téléchargés et/ou importés sur l'Application par les Utilisateurs restent la propriété de leurs auteurs. De la même façon, tout utilisateur disposant d’un site Internet, de façon personnelle ou professionnelle devra obtenir un accord préalable avec WeeSurf SAS pour placer des liens renvoyant vers l'Application ou les Services. WeeSurf SAS ne saurait être associé à tout utilisateur utilisant des techniques telles que le framing / le inline linking, et tout lien pointant vers l'Application devra être retiré à la demande de WeeSurf.</p>
+            <p><b>Liens hypertextes</b></p>
+            <p>WeeSurf propose des liens hypertextes vers des sites web édités et/ou gérés par des tiers. Dans la mesure où aucun contrôle n'est exercé sur ces ressources externes, l'Utilisateur reconnaît que WeeSurf n'assume aucune responsabilité relative à la mise à disposition de ces ressources, et ne peut être tenue responsable quant à leur contenu.</p>
+            <p><b>Droit applicable et juridiction compétente</b></p>
+            <p>Les règles en matière de droit, applicables aux contenus et aux transmissions de données sur et autour du site, sont déterminées par la loi française. En cas de litige, n'ayant pu faire l'objet d'un accord à l'amiable, seuls les tribunaux français du ressort de la cour d'appel de Nantes sont compétents. Pour toute question relative aux présentes conditions d’utilisation du site, vous pouvez nous contacter par email à contact@weesurf.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- END of body -->
+  </body>
+
+  <!--   Core JS Files   -->
+  <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="assets/js/material.min.js"></script>
+  <!-- Control Center for Material Kit -->
+  <script src="assets/js/material-kit.js" type="text/javascript"></script>
+  <!-- Video Extend -->
+  <script src="assets/js/jquery.waitforimages.js"></script>
+  <script src="assets/js/jquery.prettyembed.js"></script>
+  <!-- Jump JS -->
+
+  <!-- Instafeed -->
+  <script src="assets/js/instafeed.min.js"></script>
+  <!-- Slick -->
+  <script src="assets/js/slick.min.js"></script>
+  <!-- Custom Javascript -->
+  <script src="assets/js/app.js"></script>
+</html>
