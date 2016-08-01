@@ -184,17 +184,14 @@ ul.mockups-container li.active {
   top: 0;
 }
 
-.section-features .material-icons:hover,
-.section-features .material-icons.active {
-  background-color: #f4f4f4;
+.section-features h2 {
+  position: relative;
+  bottom: 10px;
+  line-height: 1em;
 }
 
 .section-features .info {
   padding: 35px 0 30px;
-}
-
-.section-features .info:hover {
-  cursor: pointer;
 }
 
 .icon.icon-primary {
@@ -440,7 +437,7 @@ footer .btn-just-icon:hover {
 }
 
 .legals p {
-  font-size: initial;
+  font-size: 1em;
   line-height: inherit;
   color: inherit;
   color: #fff;
