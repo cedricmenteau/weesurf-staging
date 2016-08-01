@@ -258,6 +258,14 @@ ul.mockups-container li.active {
 
 .section-pro img {
   margin-top: 25px;
+  width: 250px;
+}
+
+@media (min-width: 750px) and (max-width: 992px) {
+  .section-pro img {
+    margin-top: 25px;
+    width: 220px;
+  }
 }
 
 .pro-info {
@@ -311,6 +319,12 @@ ul.mockups-container li.active {
 
 .section-instagram #instafeed a img {
   width: 20%;
+}
+
+@media (min-width: 750px) and (max-width: 992px) {
+  .section-instagram #instafeed a img {
+    width: 33.33333%;
+  }
 }
 
 .main-grey {
@@ -387,8 +401,21 @@ ul.mockups-container li.active {
   margin-top: 60px;
 }
 
+@media (min-width: 750px) and (max-width: 992px) {
+  .team-members img {
+    width: 180px;
+  }
+}
+
+
 .contact-form {
   margin-top: 60px;
+}
+
+@media (min-width: 750px) and (max-width: 992px) {
+  .contact-form {
+    padding: 0 30px;
+  }
 }
 
 label.control-label {
@@ -411,6 +438,12 @@ label.control-label {
   margin: 10px;
   max-width: 200px;
   max-height: 90px;
+}
+
+@media (min-width: 750px) and (max-width: 992px) {
+  .section-partners img {
+    max-width: 135px;
+  }
 }
 
 footer {
@@ -486,8 +519,5 @@ footer .btn-just-icon:hover {
 .legals:hover {
   text-decoration: underline;
 }
-
-
-
 
 
