@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   // INIT PARALAX EFFECT ON HEADER
   window_width = $(window).width();
   if (window_width >= 992){
