@@ -6,7 +6,6 @@
       url('assets/fonts/aspex-webfont.woff') format('woff'),
       url('assets/fonts/aspex-webfont.ttf') format('truetype'),
       url('assets/fonts/aspex-webfont.svg#aspexregular') format('svg');
-
 }
 
 .btn.btn-weesurf,
@@ -93,6 +92,10 @@
   background-color: #0f1a7f;
 }
 
+/******************************************************************************/
+/* HEADER */
+/******************************************************************************/
+
 .index-page .header-filter:after {
   background: rgba(0, 139, 255, 0.64);
   background: linear-gradient(45deg, rgba(0, 139, 255, 0.2) 0%, rgba(25, 133, 224, 0.25) 100%);
@@ -100,7 +103,11 @@
   background: -webkit-linear-gradient(45deg, rgba(0, 139, 255, 0.2) 0%, rgba(25, 133, 224, 0.25) 100%);
 }
 
-/* HEADER - DOWNLOAD BUTTONS */
+@media (max-width: 767px) {
+  .index-page .wrapper > .header {
+    height: 100vh;
+  }
+}
 
 .btn-weesurf-dl { min-width: 295px; }
 .btn-weesurf-dl i { margin-right: 10px; }
@@ -110,12 +117,6 @@
   .download-icon {
     width: 50%;
     float: left;
-  }
-}
-
-@media (max-width: 767px) {
-  .index-page .wrapper > .header {
-    height: 100vh;
   }
 }
 
@@ -164,9 +165,9 @@ i { font-style: normal; }
   max-width: 200px;
 }
 
-.section-why {
-  padding: 70px 0;
-}
+/******************************************************************************/
+/* SECTION - WHY */
+/******************************************************************************/
 
 .section-why {
   padding: 70px 0;
@@ -199,6 +200,9 @@ i { font-style: normal; }
 }
 
 /******************************************************************************/
+/* SECTION - BETWEEN */
+/******************************************************************************/
+
 .section-between {
   position: relative;
   padding: 70px 0;
@@ -217,6 +221,8 @@ i { font-style: normal; }
   z-index: -1;
 }
 
+/******************************************************************************/
+/* SECTION - FEATURES */
 /******************************************************************************/
 
 .section-features {
@@ -433,7 +439,7 @@ ul.mockups-container li.active {
 .section-testimonials::after {
   content: "";
   position: absolute;
-  background: url('../images/cover-testimonials-3.jpg') no-repeat;
+  background: url('../images/cover-testimonials.jpg') no-repeat;
   background-size: cover;
   top: 0;
   right: 0;

@@ -21,7 +21,7 @@ $(document).ready(function(){
   $('#weesurf-video').prettyEmbed({
     videoID: '2XKwC0ipCWA',
     previewSize: 'hd',              // use either this option...
-    customPreviewImage: 'assets/images/weesurf-video.jpg',         // ...or this option
+    customPreviewImage: 'assets/images/weesurf-video-opti.jpg',         // ...or this option
 
     // Embed controls
     showInfo: false,
