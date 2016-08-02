@@ -188,15 +188,14 @@ i { font-style: normal; }
     padding: 0;
   }
 }
+@media (max-width: 767px) {
+  .section-why .why-icons {
+    display: none;
+  }
+}
 
 .section-why .info {
   padding: 50px 0 30px;
-}
-
-@media (max-width: 767px) {
-  .section-why .info {
-    padding: 10px 0 30px;
-  }
 }
 
 /******************************************************************************/
@@ -557,6 +556,10 @@ label.control-label {
   }
 }
 
+/******************************************************************************/
+/* FOOTER */
+/******************************************************************************/
+
 footer {
   position: relative;
   padding: 0;
@@ -591,10 +594,6 @@ footer {
 
 .social-container {
   padding-top: 30px;
-}
-
-footer {
-  overflow: hidden;
 }
 
 footer .btn-just-icon {
